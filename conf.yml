@@ -1,0 +1,12 @@
+# blah
+--- 
+dataset-paths: 
+  test: ""
+  train: "E:\Patryk_Terechowicz\Carla_20_01"
+  valid: ""
+train-algorithm: 
+  epochs: 50
+  lr: 0.0045
+  lr_decay: 0.98
+  momentum: 0.9
+  schedule_lr: 1
