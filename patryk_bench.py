@@ -10,9 +10,9 @@ import torchvision.transforms as transforms
 import time
 from gc_net import *
 
-
-h=1*128
-w=2*128
+# muszą być potęgi 2
+h=128
+w=256
 maxdisp=1*32 #gc_net.py also need to change  must be a multiple of 32...maybe can cancel the outpadding of deconv
 batch=1
 net = GcNet(h,w,maxdisp)

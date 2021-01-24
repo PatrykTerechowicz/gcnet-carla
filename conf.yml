@@ -1,8 +1,7 @@
 # blah
---- 
 dataset-paths: 
   test: ""
-  train: "E:\Patryk_Terechowicz\Carla_20_01"
+  train: "E:\\Patryk_Terechowicz\\Carla_20_01"
   valid: ""
 train-algorithm: 
   epochs: 50

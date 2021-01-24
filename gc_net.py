@@ -114,7 +114,7 @@ class GC_NET(nn.Module):
         deconv3d=self.deconv5(deconv3d)
         out=deconv3d.view(1, self.maxdisp*2, self.height, self.width)
         prob=F.softmax(-out,1)
-        return prob
+        return torch.argmax(prob, 1)
 
 
 
